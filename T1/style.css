@@ -15,16 +15,20 @@ ul{
     float: right;
     list-style-type: none;
     margin: 30;
+   
 }
+    
 
 ul li{
-    display: inline-block;
+    display: inline-block;    
+
 }
 
 ul li a{
     text-decoration: none;
     color: white;
-    padding: 100px 20px;
+    padding: 5px 20px;
+   
 }
 
 .main{
@@ -32,7 +36,6 @@ ul li a{
     margin: 0;
 }
 
-.img{
-    padding: 5px 20px;
+ul li a img{
+    margin: -20;
 }
-    
