@@ -58,6 +58,12 @@ ul li a img{
     margin: -24;
 }
 
-.boxContainer{
-    
+.boxContainer
+{
+    margin: auto;
+    margin-top: 20%;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: 1px solid #E4E1E1;
 }
