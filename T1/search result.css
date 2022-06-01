@@ -15,10 +15,10 @@ nav .logo{
     font-family: Hobo Std;
     font-weight: lighter;
     font-size: 37;
-    color: white;
+    color: black;
 }
 
-
+/* 
 *{
     margin: O;
     padding: 0;
@@ -51,22 +51,22 @@ ul li a{
 
 ul li a img{
     margin: -24;
-}
+} */
 
-.title{
+/* .title{
     position: absolute;
     top: 16%;
     left: 10%;
     display: flex;
     line-height: 1.4;
-}
+} */
 
-.title h1{
+/* .title h1{
     color: white;
     font-family: Hobo Std;
     font-weight: lighter;
     font-size: 125;
-}
+} */
 
 /* .image{
     position: absolute;
