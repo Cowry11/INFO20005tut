@@ -4,21 +4,27 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100px;
-    padding: 10px 90px;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid #fca3c0;
+    height: 90px;
+    background: #fca3c0;
 }
 
 nav .logo{
+    padding: 26px 0px;
+    height: 30px;
+    float: left;
+    margin-left: -36;
     font-family: Hobo Std;
     font-weight: lighter;
     font-size: 37;
-    color: black;
+    color: white;
+}
+    
+nav .icon{
+    padding: 10px 50px;
+    height: 20px;
+    float: left;
 }
 
-/* 
 *{
     margin: O;
     padding: 0;
@@ -35,7 +41,6 @@ ul{
 
 ul li{
     display: inline-block;    
-
 }
 
 ul li a{
@@ -51,7 +56,7 @@ ul li a{
 
 ul li a img{
     margin: -24;
-} */
+}
 
 /* .title{
     position: absolute;
