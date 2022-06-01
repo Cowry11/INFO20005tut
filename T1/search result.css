@@ -58,58 +58,6 @@ ul li a img{
     margin: -24;
 }
 
-/* .title{
-    position: absolute;
-    top: 16%;
-    left: 10%;
-    display: flex;
-    line-height: 1.4;
-} */
-
-/* .title h1{
-    color: white;
-    font-family: Hobo Std;
-    font-weight: lighter;
-    font-size: 125;
-} */
-
-/* .image{
-    position: absolute;
-    left: 77%;
-    top: -2%;
-} */
-
-
-
-/* .getstarted {
-    position: absolute;
-    top: 78%;
-    left: -101%;
-    width: 500px;
-    height: 80px;
-    font-size: 40;
-    font-family: Myriad Pro;
-    color: white;
-    border: 1px solid white;
-    border-radius: 50px;
-    background-color: transparent;
-    z-index: 1;
-    cursor: pointer;
-    text-align: center;
+.boxContainer{
+    
 }
-
-.getstarted:hover{
-    background-color: #fe78ad;
-    color: white;
-} */
-/* 
-.navbar{
-    width: 100%;
-    height: 75px;
-    background-color: #fca3c0;
-    line-height: 75px;
-    padding:0px 100px;
-    position: fixed;
-    z-index: 1;
-
-} */
