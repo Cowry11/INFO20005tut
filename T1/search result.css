@@ -80,18 +80,18 @@ ul li a img{
     background: transparent;
     color: black;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 80px;   
 }
 
 #searchbox button{
     width: 14%;
     border-radius: 50px;
     font-size: 21px;
-    border: 1px solid #E4E1E1;
+    border: none;
     background: #fca3c0;
     color: black;
     float: right;
-    padding: 3;
+    padding: 3.8;
     margin-right: 25.8%;
     margin-top: -4.6%;
     text-align: center;
@@ -116,4 +116,43 @@ body{
     padding-top: 150px;
 }
 
+/* shop content */
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 220px));
+    gap: 2.4rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-left: 28%;
+}
 
+.product-box {
+    position: relative;
+}
+
+.product-box:hover{
+    padding: 6px;
+    border: 1px solid var(--text-color);
+    transition: 0.4s
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.product-title{
+    font-size: 17;
+    font-family: Myriad Pro;
+    font-weight: 500;
+    margin-top: 15;
+    margin-left: 4;
+}
+
+.price{
+    font-size: 20;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    padding-top: -30;
+} 
