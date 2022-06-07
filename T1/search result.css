@@ -9,6 +9,7 @@ nav{
 }
 
 nav .logo{
+    cursor: pointer;
     padding: 26px 0px;
     height: 30px;
     float: left;
@@ -20,6 +21,7 @@ nav .logo{
 }
     
 nav .icon{
+    cursor: pointer;
     padding: 10px 50px;
     height: 20px;
     float: left;
@@ -36,6 +38,7 @@ ul{
     float: right;
     list-style-type: none;
     margin: 30;  
+    margin-right: -28;
 }
     
 
@@ -61,14 +64,14 @@ ul li a img{
 .searchbar
 {
     margin-top: -5.3%;
-    margin-left: 1.5%;
+    margin-left: 1.8%;
 }
 
 #searchbox{
     width: 48%;
     margin: auto;
     margin-top: 43;
-    margin-right: 12.7%;
+    margin-right: 8.4%;
 }
 
 #searchbox input{
@@ -191,15 +194,106 @@ body{
 }
 
 .music-list{
+    cursor: pointer; /* issue: 1. It seems useless that add cursor 2. How to add 'bold' individual and not change 'font-size'*/
     text-align: center;
-    margin-left: -73%;
-    margin-top: 15;
+    margin-left: 9%;
+    margin-top: 1.8%;
+    position: absolute;
     font-size: 25;
     font-family: Myriad Pro;
     font-weight: lighter;
     display: grid;
-    line-height: 190%;
-    
+    line-height: 186%;
+}
 
+.rectangle{
+    border: 1px solid #fe78ad;
+    position: absolute;
+    margin-left: 7.2%;
+    margin-top: 1%;
+    width: 210px;
+    height: 818px;
+    display: grid;
+    background-color: transparent;
+}
+
+.sorty{
+    position: absolute;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    margin-left: 22%;
+    margin-top: 0.5%;
+}
+
+.sortimage {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 25.8%;
+    margin-top: -0.5%;
+}
+
+.filte{
+    position: absolute;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 0.5%;
+}
+
+.filterimage{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 32.8%;
+    margin-top: -0.4%;
+}
+
+.feature{
+    margin-left: 11;
+}
+
+.filter{
+    margin-left: 15;
+}
+
+.showall{
+    position: absolute;
+    cursor: pointer;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    margin-left: 42.5%;
+    margin-top: -3%;
+}
+
+.newrelease{
+    position: absolute;
+    cursor: pointer;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    margin-left: 53.5%;
+    margin-top: -3%;
+}
+
+.preorder{
+    position: absolute;
+    cursor: pointer;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    margin-left: 66.5%;
+    margin-top: -3%;
+}
+
+.sale{
+    position: absolute;
+    cursor: pointer;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    margin-left: 78%;
+    margin-top: -3%;
 }
 
