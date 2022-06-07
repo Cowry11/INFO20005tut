@@ -119,7 +119,7 @@ body{
 /* shop content */
 .shop-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 220px));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
     gap: 2.4rem;
     margin-top: 1.3rem;
     margin-bottom: 0.5rem;
@@ -132,8 +132,8 @@ body{
 
 .product-box:hover{
     padding: 6px;
-    border: 1px solid var(--text-color);
-    transition: 0.4s
+    border: none var(--text-color);
+    transition: 0.5s;
 }
 
 .product-img {
@@ -150,9 +150,56 @@ body{
     margin-left: 4;
 }
 
-.price{
+.price {
     font-size: 20;
     font-family: Myriad Pro;
     font-weight: bold;
-    padding-top: -30;
+    position: absolute;
+    padding-top: 11;
+    margin-left: 4;
 } 
+
+.black-cart {
+    position: absolute;
+    cursor: pointer;
+    padding-top: 4;
+    margin-left: 78;
+}
+
+.shop-content2 {
+    display: grid; /* issue: When I click the fouth product in first row, the second row will move. How to keep same? */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+    gap: 2.4rem;
+    margin-top: 4rem;
+    margin-left: 28%;
+}
+
+.category{
+    margin-top: -830;
+}
+
+.row{
+    margin-left: 100;
+}
+
+.product-category{
+    margin-left: 60;
+    margin-top: -40;
+    font-size: 35;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+}
+
+.music-list{
+    text-align: center;
+    margin-left: -73%;
+    margin-top: 15;
+    font-size: 25;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    display: grid;
+    line-height: 190%;
+    
+
+}
+
