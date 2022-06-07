@@ -194,7 +194,7 @@ body{
 }
 
 .music-list{
-    cursor: pointer; /* issue: 1. It seems useless that add cursor 2. How to add 'bold' individual and not change 'font-size'*/
+    cursor: pointer; /* issue: 1. It seems useless that add cursor 2. How to add 'bold' individual and not change 'font-size' 3. When open in 'Live Server', it seems that the placement is mess in Microsoft*/
     text-align: center;
     margin-left: 9%;
     margin-top: 1.8%;
