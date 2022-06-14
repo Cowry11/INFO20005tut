@@ -1,0 +1,176 @@
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: #fca3c0;
+}
+
+nav .logo{
+    cursor: pointer;
+    padding: 26px 0px;
+    height: 30px;
+    float: left;
+    margin-left: -36;
+    font-family: Hobo Std;
+    font-weight: lighter;
+    font-size: 37;
+    color: white;
+}
+    
+nav .icon{
+    cursor: pointer;
+    padding: 10px 50px;
+    height: 20px;
+    float: left;
+}
+
+*{
+    margin: O;
+    padding: 0;
+    font-family: Myriad Pro;
+    font-size: 30;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 30;  
+    margin-right: -28;
+}
+    
+
+ul li{
+    display: inline-block;    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px; 
+}
+
+.main{
+    max-width: 1590px;
+    margin: 0;
+}
+
+ul li a img{
+    margin: -24;
+}
+
+.product{
+    position: absolute;
+    margin-top: 2.3%;
+    margin-left: 10.2%;
+}
+
+.product-title{
+    margin-left: 60%;
+    margin-top: 10.8%;
+    font-size: 40;  /* how to change font to condensed*/
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.price{
+    font-size: 52;
+    margin-top: -1.5%;
+    margin-left: 61%;
+    position: absolute;
+}
+
+.number{
+    margin-top: -0.8%;
+    position: absolute;
+    margin-left: 73.5%;
+    font-size: 35;
+}
+
+.add{
+    position: absolute;
+    margin-top: -0.4%;
+    margin-left: 71.5%;
+}
+
+.substract{
+    position: absolute;
+    margin-top: -0.4%;
+    margin-left: 75%;
+}
+
+.p1{
+    font-size: 27;
+    font-family: Myriad Pro;
+    position: absolute;
+    margin-left: 61%;
+    line-height: 135%;
+    margin-top: 2.6%;
+    font-weight: 460;
+}
+
+.p2{
+    font-size: 20;
+    font-family: Myriad Pro;
+    position: absolute;
+    margin-left: 61%;
+    margin-top: 10.5%;
+}
+
+.p3{
+    font-size: 18;
+    font-family: Myriad Pro;
+    position: absolute;
+    margin-left: 61%;
+    margin-top: 13%;
+}
+
+.p4{
+    font-size: 15;
+    font-family: Myriad Pro;
+    position: absolute;
+    margin-left: 61%;
+    margin-top: 15.5%;
+}
+
+.return{
+    position: absolute;
+    margin-left: 5.1%;
+    margin-top: -2.6%;
+    cursor: pointer;
+}
+
+.category{
+    position: absolute;
+    font-size: 21;
+    font-family: Myriad Pro;
+    font-weight: 450;
+    margin-left: 7.8%;
+    margin-top: -11.5%;
+}
+
+.Addcart {
+    position: absolute;
+    margin-left: 60%;
+    width: 299px;
+    height: 64px;
+    font-size: 30;
+    font-family: Myriad Pro;
+    color: black;
+    border: 1px solid #579E2F;
+    border-radius: 50px;
+    background-color: transparent;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 29%;
+    margin-left: 63%;
+}
+
+.Addcart:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
