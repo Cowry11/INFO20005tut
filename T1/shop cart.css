@@ -322,12 +322,44 @@ ul li a img{
 .rect{
     fill: none;
     border: 1px solid #E4E1E1;
-    margin-top: 27%;
+    margin-top: 27.1%;
     margin-left: 6.7%;
 }
 
 .rect1{
     fill: #E4E1E1;
-    margin-left: -5.9%;
-    margin-top: 20%; 
+    margin-left: -5.45%;
+    margin-top: 26.88%; 
+    position: absolute;
+}
+
+.c{
+    font-size: 25;
+    font-family: Myriad Pro;
+    color: #E4E1E1;
+    font-weight: 200;
+    position: absolute;
+    margin-top: -2.2%;
+    margin-left: 7.3%;
+}
+
+.a{
+    font-size: 25;
+    font-family: Myriad Pro;
+    color: white;
+    font-weight: 200;
+    position: absolute;
+    margin-top: -2.2%;
+    margin-left: 33%;
+}
+
+.s{
+    font-size: 35;
+    font-family: Myriad Pro;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -2.2%;
+    margin-left: 56%;
+    margin-top: -3%;
+    line-height: 1.3;
 }
