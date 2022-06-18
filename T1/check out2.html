@@ -23,22 +23,42 @@
             </ul> 
         </div>
     </nav>
-    <!-- cart1 -->
     <div class="productpage">    
         <div class="main-product">
             <i class="return"><img src="./image/return.png" alt=""></i>
-            <button class="Continue">Continue</button>
+            <button class="Pto">Proceed to order summary</button>
         </div>
-    </div>
-    <!-- other -->   
+    </div>   
     <div class="order">
         <img src="./image/your order.png" alt="">
     </div>
-    <div class="shipping">
-        <img src="./image/shipping.png" alt="">
+    <div class="detail">
+        <img src="./image/detail.png" alt="">
     </div>
     <div id="vertical-line"></div>
-    <h2 class="a">Shipping</h2>
+    <h2 class="a">Payment</h2>
+    <!-- payment -->
+    <div class="container">
+        <h1 class="pay">Payment</h1>
+                <p class="C">Credit or debit card</p>
+                <p class="T">Total payable:$ 155.96</p>
+    <div class="form">
+        <div class="card">
+                <input type="text" placeholder="Card number" name="cardno" id="cardno" maxlength="16" onkeypress="cardspace()"/>
+        </div>
+        <div class="name">
+                    <input type="text" placeholder="Name on card" name="name" id="name" maxlength="12"/> 
+        </div>
+        <div class="valid">
+                    <input type="text" placeholder="Expiration date (MM / YY)" name="valid" id="valid" maxlength="12" onkeypress="addSlashes()"/>
+        </div>
+        <div class="cvc">
+                    <input type="text" placeholder="CVC" name="cvc" id="cvc" maxlength="3"/>
+        </div>
+    </div>
+    </div>
+    <i class="checkbox"><img src="./image/check box.png" alt=""></i>
+    <i class="lock"><img src="./image/lock.png" alt="" width="40" height="40"></i>
 </body>
 </html>
  

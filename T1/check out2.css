@@ -64,7 +64,7 @@ ul li a img{
 .return{
     position: absolute;
     margin-left: 5.7%;
-    margin-top: 6.2%;
+    margin-top: 6.6%;
     cursor: pointer;
 }
 
@@ -77,9 +77,9 @@ ul li a img{
     margin-top: -13.5%;
 }
 
-.Continue {
+.Pto {
     position: absolute;
-    width: 351px;
+    width: 395px;
     height: 61px;
     font-size: 30;
     font-family: Myriad Pro;
@@ -92,10 +92,10 @@ ul li a img{
     text-align: center;
     font-weight: 500;
     margin-top: 51%;
-    margin-left: 71%;
+    margin-left: 69.7%;
 }
 
-.Continue:hover{
+.Pto:hover{
     background-color: #F2F2F2;
     color: black;
 }
@@ -108,14 +108,14 @@ ul li a img{
 
 #vertical-line{
     width: 1px;
-    height: 98%;
+    height: 100.5%;
     background-color: #FE78AD;
     margin-left: 61%;
 }
 
-.shipping{
+.detail{
     margin-left: 9%;
-    margin-top: 9%;
+    margin-top: 10.7%;
     position: absolute;
 }
 
@@ -123,6 +123,66 @@ ul li a img{
     font-size: 35;
     position: absolute;
     margin-left: 8.8%;
-    margin-top: -52.7%;
+    margin-top: -53.8%;
     font-weight: 200;
+}
+
+.container{
+    margin-top: -35%;
+    margin-left: 9%;
+    
+}
+
+.C{
+    font-size: 20;
+    font-family: Myriad Pro;
+    margin-left: 2.5%;
+}
+
+.T{
+    font-size: 20;
+    font-family: Myriad Pro;
+    margin-top: -2.5%;
+    margin-left: 28%;
+    position: absolute;
+}
+
+.form input{
+    width: 752px;
+    height: 42px;
+    font-size: 20;
+    font-family: Myriad Pro;
+    border: 1px solid #E4E1E1;
+}
+
+.card{
+    position: absolute;
+    margin-top: 0.5%;
+}
+
+.name{
+    position: absolute;
+    margin-top: 4.5%;
+}
+
+.valid{
+    position: absolute;
+    margin-top: 8.5%;
+}
+
+.cvc{
+    position: absolute;
+    margin-top: 12.5%;
+}
+
+.lock{
+    position: absolute;
+    margin-top: 0.75%;
+    margin-left: 46.5%;
+}
+
+.checkbox{
+    position: absolute;
+    margin-top: -2.5%;
+    margin-left: 9.5%;
 }
