@@ -160,9 +160,17 @@ ul li a img{
     margin-top: 0.5%;
 }
 
+.card input{
+    padding-left: 20px;
+}
+
 .name{
     position: absolute;
     margin-top: 4.5%;
+}
+
+.name input{
+    padding-left: 20px;
 }
 
 .valid{
@@ -170,9 +178,17 @@ ul li a img{
     margin-top: 8.5%;
 }
 
+.valid input{
+    padding-left: 20px;
+}
+
 .cvc{
     position: absolute;
     margin-top: 12.5%;
+}
+
+.cvc input{
+    padding-left: 20px;
 }
 
 .lock{
