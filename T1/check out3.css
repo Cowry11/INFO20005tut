@@ -64,7 +64,7 @@ ul li a img{
 .return{
     position: absolute;
     margin-left: 5.7%;
-    margin-top: 6.2%;
+    margin-top: 6.6%;
     cursor: pointer;
 }
 
@@ -77,9 +77,9 @@ ul li a img{
     margin-top: -13.5%;
 }
 
-.Continue {
+.Pto {
     position: absolute;
-    width: 351px;
+    width: 395px;
     height: 61px;
     font-size: 30;
     font-family: Myriad Pro;
@@ -92,10 +92,10 @@ ul li a img{
     text-align: center;
     font-weight: 500;
     margin-top: 51%;
-    margin-left: 71%;
+    margin-left: 69.7%;
 }
 
-.Continue:hover{
+.Pto:hover{
     background-color: #F2F2F2;
     color: black;
 }
@@ -108,14 +108,14 @@ ul li a img{
 
 #vertical-line{
     width: 1px;
-    height: 100%;
+    height: 100.5%;
     background-color: #FE78AD;
     margin-left: 61%;
 }
 
-.shipping{
+.detail{
     margin-left: 9%;
-    margin-top: 9.5%;
+    margin-top: 10.7%;
     position: absolute;
 }
 
@@ -123,128 +123,66 @@ ul li a img{
     font-size: 35;
     position: absolute;
     margin-left: 8.8%;
-    margin-top: -53.9%;
+    margin-top: -53.8%;
     font-weight: 200;
 }
 
 .container{
-    margin-top: 31%;
-    margin-left: 10.5%;
-    position: absolute;
+    margin-top: -35%;
+    margin-left: 9%;
+    
 }
 
-h1{
-    font-size: 29;
+.C{
+    font-size: 20;
     font-family: Myriad Pro;
-    margin-top: -30%;
+    margin-left: 2.5%;
 }
 
-.country label{
-    position: absolute;
-    font-size: 15;
+.T{
+    font-size: 20;
     font-family: Myriad Pro;
-    margin-top: -99%;
-    color: #E4E1E1;
-    margin-left: 23px;
+    margin-top: -2.5%;
+    margin-left: 28%;
+    position: absolute;
 }
 
-.country select{
-    position: absolute;
-    width: 741px;
-    height: 47.5px;
+.form input{
+    width: 752px;
+    height: 42px;
+    font-size: 20;
+    font-family: Myriad Pro;
     border: 1px solid #E4E1E1;
-    border-radius: 50px;
-    font-size: 20;
-    margin-top: -88%;
-    padding-left: 23px;
 }
 
-.name label{
+.card{
     position: absolute;
-    font-size: 15;
-    font-family: Myriad Pro;
-    margin-top: -38%;
-    color: #E4E1E1;
-    margin-left: 23px;
+    margin-top: 0.5%;
 }
 
-.name input{
+.name{
     position: absolute;
-    width: 741px;
-    height: 47.5px;
-    border: none;
-    border-bottom: 1px solid #E4E1E1;
-    font-size: 20;
-    margin-top: -32%;
-    outline: none;
-    padding-left: 23px;
-    background-color: transparent;
+    margin-top: 4.5%;
 }
 
-.mobile input{
+.valid{
     position: absolute;
-    width: 652px;
-    height: 47.5px;
-    border: 1px solid #E4E1E1;
-    font-size: 20;
-    margin-top: -2%;
-    margin-left: 41.5%;
-    padding-left: 23px;
+    margin-top: 8.5%;
 }
 
-.number select{
+.cvc{
     position: absolute;
-    width: 89.5px;
-    height: 47.5px;
-    border: 1px solid #E4E1E1;
-    font-size: 20;
-    margin-top: -2%;
+    margin-top: 12.5%;
 }
 
-.address label{
+.lock{
     position: absolute;
-    font-size: 15;
-    font-family: Myriad Pro;
-    margin-top: 23%;
-    color: #E4E1E1;
-    margin-left: 23px;
-}
-
-.address input{
-    position: absolute;
-    width: 741px;
-    height: 47.5px;
-    border: none;
-    border-bottom: 1px solid #E4E1E1;
-    font-size: 20;
-    margin-top: 29.5%;
-    padding-left: 23px;
-    outline: none;
+    margin-top: 0.75%;
+    margin-left: 46.5%;
 }
 
 .checkbox{
     position: absolute;
-    margin-top: 58%;
+    margin-top: -2.5%;
+    margin-left: 9.5%;
 }
-
-.shipping2{
-    margin-left: 9%;
-    margin-top: 34.3%;
-    position: absolute;
-    margin-left: 10.5%;
-}
-
-.shipping3{
-    position: absolute;
-    margin-left: 10.5%;
-    margin-top: 47.5%;
-}
-
-.form{
-    margin-top: 30%;
-}
-
-.imp{
-    margin-top: 102.5%;
-}
-
