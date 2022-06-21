@@ -1,0 +1,103 @@
+@media screen {
+.getstarted {
+    position: absolute;
+    top: 116.5%;
+    left: 2%;
+    width: 323px;
+    height: 55px;
+    font-size: 25;
+    font-family: Myriad Pro;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: transparent;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+}
+    
+.getstarted:hover{
+    background-color: #fe78ad;
+    color: white;
+} 
+
+.bg-gradiant{
+    height: 110%;
+    width: 110%;
+    background-image: linear-gradient(#fadedb,#fe78ad);
+}
+       
+*{
+    margin: O;
+    padding: 0;
+    font-family: Myriad Pro;
+    font-size: 30;
+}
+
+ul{
+    float: right;
+    list-style-type: none;  
+    margin-right: -7; 
+    margin-top: 7;
+}
+    
+ul li{
+    display: inline-block;  
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 11px; 
+}
+
+.main{
+    max-width: 1590px;
+}
+
+ul li a img{
+    margin: -24;
+    margin-left: -120%;
+    margin-top: 30%;
+}
+
+.title{
+    position: absolute;
+    top: 9%;
+    left: -7%;
+    display: flex;
+    line-height: 1.4;
+}
+
+.title h1{
+    color: white;
+    font-family: Hobo Std;
+    font-weight: lighter;
+    font-size: 55;
+    margin-left: 40%;
+}
+
+.image{
+    position: absolute;
+    left: 103%;
+    top: -1%;
+}
+
+.music{
+    position: absolute;
+    left: 36%;
+    top: 98%;
+}
+
+.ham{
+    margin-top: -10;
+    position: absolute;
+    margin-left: -46;
+}
+
+.close{
+    margin-top: -225%;
+    position: absolute;
+    margin-left: -15;
+}
+}
