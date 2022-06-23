@@ -1,0 +1,239 @@
+@media only screen and (max-width:767px) {   
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 59;
+    background: #fca3c0;
+}
+
+ul{
+    float: right;
+    list-style-type: none;  
+    margin-right: -7; 
+    margin-top: 7;
+}
+    
+ul li{
+    display: inline-block;  
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 11px; 
+}
+
+.main{
+    max-width: 1590px;
+}
+
+ul li a img{
+    margin: -24;
+    margin-left: -120%;
+    margin-top: 30%;
+}
+
+.ham{
+    margin-top: -9;
+    position: absolute;
+    margin-left: -43;
+}
+
+.searchbar
+{
+    margin-top: -10%;
+    margin-left: 1.5%;
+}
+
+#searchbox{
+    width: 387;
+    margin-top: -40;
+    margin-left: 79;
+    position: absolute;
+}
+
+#searchbox input{
+    width: 75%;
+    border: 1px solid #E4E1E1;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 9px;
+    background: transparent;
+    color: black;
+    text-align: left;
+    padding-left:52px;
+       
+}
+
+#searchbox button{
+    width: 16%;
+    border-radius: 50px;
+    font-size: 14px;
+    border: none;
+    background: #fca3c0;
+    color: black;
+    float: right;
+    padding: 3.8;
+    margin-right: 27%;
+    margin-top: -7.8%;
+    text-align: center;
+    transform: translate(0%,0%);
+}
+
+#searchbox button:hover{
+    opacity: .8;
+}
+
+#searchbox input:hover{
+    opacity: .8;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 150px;
+}
+
+/* shop content */
+.shop-content {
+    gap: 2.4rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+    margin-left: 28%;
+}
+
+.product-box {
+    position: relative;
+    margin-left: -27%;
+    margin-top: 22%;
+}
+
+.product-box2 {
+    position: relative;
+    margin-left: 50%;
+    margin-top: -62%;
+}
+
+.product-box3 {
+    position: relative;
+    margin-left: -27.5%;
+    margin-top: 25%;
+}
+
+.product-box4 {
+    position: relative;
+    margin-left: 50.5%;
+    margin-top: -64%;
+}
+
+.product-box5 {
+    position: relative;
+    margin-left: -30%;
+    margin-top: -6%;
+}
+
+.product-box6 {
+    position: relative;
+    margin-left: 54.5%;
+    margin-top: -87.5%;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.product-title{
+    font-size: 12;
+    font-family: Myriad Pro;
+    font-weight: 200;
+    margin-top: 9;
+    margin-left: 4;
+}
+
+.price {
+    font-size: 15;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 3;
+    margin-left: 4;
+} 
+
+.black-cart {
+    position: absolute;
+    cursor: pointer;
+    padding-top: -1;
+    margin-left: 58;
+}
+
+.shop-content2 {
+    display: grid; /* issue: When I click the fouth product in first row, the second row will move. How to keep same? */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 260px));
+    gap: 2.4rem;
+    margin-top: 4rem;
+    margin-left: 28%;
+}
+
+.row{
+    margin-left: 17;
+    margin-top: -895;
+    position: absolute;
+}
+
+.showall{
+    position: absolute;
+    cursor: pointer;
+    font-size: 14;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    margin-left: 16%;
+    margin-top: -227.7%;
+}
+
+.newrelease{
+    position: absolute;
+    cursor: pointer;
+    font-size: 14;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    margin-left: 40%;
+    margin-top: -227.7%;
+}
+
+.preorder{
+    position: absolute;
+    cursor: pointer;
+    font-size: 14;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    margin-left: 70.5%;
+    margin-top: -227.7%;
+}
+
+.sale{
+    position: absolute;
+    cursor: pointer;
+    font-size: 14;
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    margin-left: 95.5%;
+    margin-top: -227.7%;
+}
+
+.grey{
+    position: absolute;
+    margin-left: 19%;
+    margin-top: -206.5%;
+}
+
+
+
+}
+

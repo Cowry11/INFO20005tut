@@ -41,7 +41,6 @@ ul{
     margin-right: -28;
 }
     
-
 ul li{
     display: inline-block;    
 }
@@ -214,7 +213,7 @@ body{
     width: 210px;
     height: 818px;
     display: grid;
-    background-color: transparent;
+    background-color: transparent;  
 }
 
 .sorty{
@@ -296,4 +295,5 @@ body{
     margin-left: 78%;
     margin-top: -3%;
 }
+
 
