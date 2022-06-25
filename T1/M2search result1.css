@@ -227,6 +227,46 @@ body{
     margin-top: -227.7%;
 }
 
+.grey{
+    position: absolute;
+    margin-left: 19%;
+    margin-top: -206.5%;
+}
+
+.close{
+    margin-top: -209%;
+    position: absolute;
+    margin-left: -60;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 8.5;
+    width: 260px;
+    min-height: 1008px;
+    display: block;
+    z-index: 98;
+    background-image: linear-gradient(#fadedb,#fe78ad);
+    padding-top: 120px;
+    transition: 0.5s;
+    
+}
+
+.mobile-nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 30px;
+    font-family: Myriad Pro;
+    text-align: left;
+    padding: 10px 2px;
+    color: white;
+    text-decoration: none;
+    font-size: 30;
+}
+
 .ca{
     position: absolute;
     font-size: 21;
@@ -236,12 +276,5 @@ body{
     margin-top: -243.5%;
     color: white;
 }
-
-.grey{
-    position: absolute;
-    margin-left: 19%;
-    margin-top: -206.5%;
-}
-
 }
 
