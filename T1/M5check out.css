@@ -71,15 +71,9 @@ body{
     font-size: 21;
     font-family: Myriad Pro;
     font-weight: lighter;
-    margin-left: 38%;
+    margin-left: 39%;
     margin-top: -33%;
     color: white;
-}
-
-.mdetail{
-    position: absolute;
-    margin: 26.5;
-    margin-top: -36;
 }
 
 .Addcart {
@@ -137,6 +131,125 @@ body{
     color: white;
     text-decoration: none;
     font-size: 30;
+}
+
+.ship1{
+    position: absolute;
+    margin-left: 5.1%;
+    margin-top: -9.5%;
+}
+
+.ship2{
+    position: absolute;
+    margin-left: 5.1%;
+    margin-top: 56.5%;
+}
+
+.ship3{
+    position: absolute;
+    margin-left: 8.5%;
+    margin-top: 113.8%;
+}
+
+.container{
+    margin-top: 32%;
+    margin-left: 8%;
+    position: absolute;
+}
+
+h1{
+    font-size: 16;
+    font-family: Myriad Pro;
+    margin-top: 4%;
+    font-weight: 200;
+}
+
+.country label{
+    position: absolute;
+    font-size: 8;
+    font-family: Myriad Pro;
+    margin-top: 9%;
+    color: #E4E1E1;
+    margin-left: 20px;
+}
+
+.country select{
+    position: absolute;
+    width: 330px;
+    height: 27px;
+    border: 1px solid #E4E1E1;
+    border-radius: 50px;
+    font-size: 14;
+    margin-top: 27%;
+    padding-left: 16px;
+}
+
+.name label{
+    position: absolute;
+    font-size: 8;
+    font-family: Myriad Pro;
+    margin-top: 111%;
+    color: #E4E1E1;
+    margin-left: 20px;
+}
+
+.name input{
+    position: absolute;
+    width: 330px;
+    height: 27px;
+    border: none;
+    border-bottom: 1px solid #E4E1E1;
+    font-size: 14;
+    margin-top: 126%;
+    outline: none;
+    padding-left: 20px;
+    background-color: transparent;
+}
+
+.mobile input{
+    position: absolute;
+    width: 282px;
+    height: 27px;
+    border: 1px solid #E4E1E1;
+    font-size: 14;
+    margin-top: 173%;
+    margin-left: 47.5%;
+    padding-left: 20px;
+}
+
+.number select{
+    position: absolute;
+    width: 49.5px;
+    height: 27px;
+    border: 1px solid #E4E1E1;
+    font-size: 14;
+    margin-top: 173%;
+}
+
+.address label{
+    position: absolute;
+    font-size: 8;
+    font-family: Myriad Pro;
+    margin-top: 218%;
+    color: #E4E1E1;
+    margin-left: 20px;
+}
+
+.address input{
+    position: absolute;
+    width: 330px;
+    height: 33px;
+    border: none;
+    border-bottom: 1px solid #E4E1E1;
+    font-size: 14;
+    margin-top: 230%;
+    padding-left: 20px;
+    outline: none;
+}
+
+.checkbox{
+    position: absolute;
+    margin-top: 288%;
 }
 
 }

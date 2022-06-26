@@ -71,15 +71,9 @@ body{
     font-size: 21;
     font-family: Myriad Pro;
     font-weight: lighter;
-    margin-left: 38%;
+    margin-left: 33%;
     margin-top: -33%;
     color: white;
-}
-
-.mdetail{
-    position: absolute;
-    margin: 26.5;
-    margin-top: -36;
 }
 
 .Addcart {
@@ -105,38 +99,10 @@ body{
     color: black;
 }
 
-.close{
-    margin-top: -209%;
+.confir{
     position: absolute;
-    margin-left: -60;
-}
-
-.mobile-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 8.5;
-    width: 260px;
-    min-height: 1008px;
-    display: block;
-    z-index: 98;
-    background-image: linear-gradient(#fadedb,#fe78ad);
-    padding-top: 120px;
-    transition: 0.5s;
-    
-}
-
-.mobile-nav a {
-    display: block;
-    width: 100%;
-    max-width: 200px;
-    margin: 0 auto 30px;
-    font-family: Myriad Pro;
-    text-align: left;
-    padding: 10px 2px;
-    color: white;
-    text-decoration: none;
-    font-size: 30;
+    margin-left: 9.5%;
+    margin-top: -3%;
 }
 
 }

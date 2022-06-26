@@ -71,15 +71,9 @@ body{
     font-size: 21;
     font-family: Myriad Pro;
     font-weight: lighter;
-    margin-left: 38%;
+    margin-left: 39%;
     margin-top: -33%;
     color: white;
-}
-
-.mdetail{
-    position: absolute;
-    margin: 26.5;
-    margin-top: -36;
 }
 
 .Addcart {
@@ -139,5 +133,133 @@ body{
     font-size: 30;
 }
 
+.ship1{
+    position: absolute;
+    margin-left: 5.1%;
+    margin-top: -9.5%;
+}
+
+.ship3{
+    position: absolute;
+    margin-left: 6.5%;
+    margin-top: 90%;
+}
+
+.container{
+    margin-top: 25%;
+    margin-left: 2.8%;
+    
+}
+
+.pay{
+    font-size: 16;
+    font-family: Myriad Pro;
+}
+
+.C{
+    font-size: 14;
+    font-family: Myriad Pro;
+    margin-left: 9.5%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.T{
+    font-size: 14;
+    font-family: Myriad Pro;
+    margin-top: 3%;
+    margin-left: 51%;
+    position: absolute;
+}
+
+.form input{
+    width: 349px;
+    height: 28px;
+    font-size: 16;
+    font-family: Myriad Pro;
+    border: 1px solid #E4E1E1;
+}
+
+.card{
+    position: absolute;
+    margin-top: 11%;
+}
+
+.card input{
+    padding-left: 20px;
+}
+
+.name{
+    position: absolute;
+    margin-top: 23%;
+}
+
+.name input{
+    padding-left: 20px;
+}
+
+.valid{
+    position: absolute;
+    margin-top: 35%;
+}
+
+.valid input{
+    padding-left: 20px;
+}
+
+.cvc{
+    position: absolute;
+    margin-top: 47%;
+}
+
+.cvc input{
+    padding-left: 20px;
+}
+
+.lock{
+    position: absolute;
+    margin-top: 11.5%;
+    margin-left: 82%;
+}
+
+.checkbox{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.close{
+    margin-top: -209%;
+    position: absolute;
+    margin-left: -60;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 8.5;
+    width: 260px;
+    min-height: 1008px;
+    display: block;
+    z-index: 98;
+    background-image: linear-gradient(#fadedb,#fe78ad);
+    padding-top: 120px;
+    transition: 0.5s;
+    
+}
+
+.mobile-nav a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 30px;
+    font-family: Myriad Pro;
+    text-align: left;
+    padding: 10px 2px;
+    color: white;
+    text-decoration: none;
+    font-size: 30;
+}
 }
 
